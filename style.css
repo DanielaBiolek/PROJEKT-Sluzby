@@ -1,0 +1,120 @@
+body {
+    background-color: #FAFAFA;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px 60px;
+}
+
+h1,
+h2,
+p,
+a {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+    font-weight: 500;
+    color: #000000
+}
+
+p {
+    font-weight: 300;
+    color: #8B8B8B;
+    
+}
+
+a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0 0 10px;
+}
+
+h2,
+p {
+    font-size: 16px;
+    margin: 0 0 40px;
+}
+
+.ctverecek p {
+    font-size: 13px;
+}
+
+
+.uvod img {
+    max-width: 350px;
+    margin: 60px 0 40px;
+}
+
+.rectangle {
+    background-color: #407BFF;
+    width: 60px;
+    height: 2px;
+    margin: 0 auto 30px;
+}
+
+.tlacitko a {
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.dobrodruzstvi a {
+    background-color: #407BFF;
+    margin: 0 0 10px;
+}
+
+.plaz a {
+    background-color: #8B8B8B;
+    margin: 0 0 60px;
+}
+
+h2 {
+    margin: 0 0 15px;
+}
+
+.sluzby p,
+.delegati p {
+    margin-bottom: 30px;
+}
+
+.ctverecek {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.ctverecek p {
+    margin: 30px 20px 30px 30px;
+}
+
+.horni img {
+    max-width: 45px;
+}
+
+.kaktus img {
+    max-width: 40px;
+}
+
+.dolni img {
+    max-width: 50px;
+}
+
+.ctverecek img {
+    margin: 20px 0 20px 20px;
+}
+
+.ctverecek + .ctverecek {
+    margin-top: 15px;
+}
+
+.letadlo {
+    margin-bottom: 60px;
+}
