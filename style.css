@@ -52,6 +52,12 @@ p {
     font-size: 13px;
 }
 
+.uvod p,
+.zajistime p,
+.postarame p {
+    padding: 0 20px;
+}
+
 /*úvod*/
 
 .uvod img {
@@ -152,6 +158,12 @@ h2 {
 
     .uvod p {
         margin-bottom: 30px;
+        padding: 0 90px;
+    }
+
+    .zajistime p,
+    .postarame p {
+        padding: 0 90px;
     }
 
     .ctverecky {
@@ -181,3 +193,88 @@ h2 {
         margin-bottom: 0;
     }
 }
+
+@media screen and (min-width: 1100px) {
+
+body {
+    max-width: 1200px;
+}
+    
+.uvod,
+.sluzby,
+.delegati {
+    display: flex;
+    gap: 60px;
+}
+
+.uvod,
+.sluzby {
+    flex-direction: row-reverse;
+}
+
+.uvod,
+.zajistime {
+    margin-bottom: 80px;
+}
+
+.uvod {
+    justify-content: space-between;
+}
+
+.traveler,
+.hlava {
+    flex: 1 1 490px;
+}
+
+.traveler {
+    margin-top: 60px;
+}
+
+.uvod img {
+    max-width: 425px;
+    margin: 0;
+}
+
+.hlava {
+    padding: 130px 0 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hlava p {
+    padding: 0;
+    text-align: left;
+}
+
+.rectangle {
+    margin-left: 0;
+}
+
+.sluzby,
+.delegati {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.hlava a {
+    margin: 0;
+}
+
+.ctverecky {
+    flex: 1 1 550px;
+}
+
+.postarame,
+.zajistime {
+    flex: 1 1 430px;
+}
+}
+
+.postarame p,
+.zajistime p {
+    padding: 0;
+}
+
+
